@@ -18,7 +18,7 @@ const scontoOver = ((prezzoBiglietto * 40) / 100);
 
 console.log(scontoOver);
 
-//Calcolo prezzo finale
+//--Calcolo prezzo finale--
 let bigliettoFinale;
 
 if( eta < 18 ){
@@ -31,3 +31,6 @@ else {
 }
 
     console.log (bigliettoFinale);
+
+//Inserimento prezzo in HTML
+document.getElementById('ticket').innerHTML = bigliettoFinale;
