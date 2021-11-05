@@ -23,7 +23,7 @@ const bigliettoFinale =
     if (eta < 18) {
         (prezzoBiglietto - scontoMin);
     }
-    else (eta > 18) {
+    else (eta > 65) {
         (prezzoBiglietto - scontoOver);
     }
 
