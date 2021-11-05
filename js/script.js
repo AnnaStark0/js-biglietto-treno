@@ -33,4 +33,4 @@ else {
     console.log (bigliettoFinale);
 
 //Inserimento prezzo in HTML
-document.getElementById('ticket').innerHTML = bigliettoFinale;
+document.getElementById('ticket').innerHTML = bigliettoFinale + '€';
