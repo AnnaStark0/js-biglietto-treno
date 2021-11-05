@@ -26,5 +26,8 @@ if( eta < 18 ){
 } else if( eta > 65 ) {
   bigliettoFinale = (prezzoBiglietto - scontoOver)
 }
+else {
+    bigliettoFinale = prezzoBiglietto
+}
 
     console.log (bigliettoFinale);
