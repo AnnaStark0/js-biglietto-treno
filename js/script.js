@@ -9,3 +9,12 @@ const prezzoBiglietto = km * 0.21;
 
 console.log (prezzoBiglietto)
 
+//Sconto Minorenni
+const scontoMin = ((prezzoBiglietto * 20) / 100);
+
+console.log (scontoMin);
+
+//Sconto Over 65
+const scontoOver = ((prezzoBiglietto * 40) / 100);
+
+console.log (scontoOver);
