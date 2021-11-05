@@ -1,6 +1,11 @@
-const km = prompt ('Inserisci i km da percorrere');
+
+//Dati utente
+const km = prompt ('Inserisci quanti km vuoi percorrere');
 
 const eta = prompt ('Inserisci la tua età');
 
-console.log (km + eta);
+//Calcolo prezzo biglietto
+const prezzoBiglietto = km * 0.21;
+
+console.log (prezzoBiglietto)
 
